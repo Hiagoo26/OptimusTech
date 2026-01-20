@@ -101,6 +101,11 @@ main {
     min-width: 100%;
 }
 
+/* Cor padrão pra tag p*/
+p {
+    color: var(--colorText);
+}
+
 /* Hero */
 
 .HeroSection {
@@ -125,12 +130,12 @@ main {
 .HeroSection p {
     margin: 1em 0;
     text-align: center;
-    color: var(--colorText);
 }
 
 .HeroCards {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
+    justify-content: center;
     margin-top: 5em;
     min-width: 70%
 }
@@ -153,4 +158,68 @@ main {
 .hero_card > p {
     margin: 0;
     text-align: unset;
+}
+
+/* VAGAS Container */
+
+.Vagas-container {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 200px;
+}
+
+.Vagas-container  span {
+    border-radius: 10px;
+    padding: 5px 10px;
+    background-color: #8e24241c;
+    color: var(--colorPrimary);
+}
+
+.Vagas-container h2 {
+    margin: 1rem 0;
+    font-size: 3rem;
+}
+
+.Vagas-container p {
+    margin-bottom: 2em;
+    font-size: 1rem;
+}
+
+.Vagas-container img {
+    min-width: 50%;
+}
+
+.Vagas-Abertas {
+    margin-top: 2em;
+    min-width: 30%;
+}
+
+.Vagas-Abertas  span {
+    display: inline-block;
+    margin-top: 2em;
+    font-size: 1.5rem;
+    font-weight: 500;
+    background-color: #fff;
+    color: #000;
+}
+
+.Vagas-Items {
+    display: flex;
+    flex-flow: column nowrap;
+    border: 2px solid #6670855d;
+    border-radius: 10px;
+    margin: 1em 0;
+    padding: 1em;
+    height: auto;
+}
+
+.Vagas-Items > h4 {
+    margin-bottom: 10px;
+}
+
+.Vagas-Items > div {
+    display: flex;
+    gap: 15px;
 }
