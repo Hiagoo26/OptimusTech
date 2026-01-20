@@ -127,3 +127,30 @@ main {
     text-align: center;
     color: var(--colorText);
 }
+
+.HeroCards {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin-top: 5em;
+    min-width: 70%
+}
+
+.hero_card {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: flex-start;
+}
+
+.hero_card > span {
+    margin: 0em;
+    font-size: 3.5rem;
+}
+
+.hero_card > h4 {
+    margin: 1em 0;
+}
+
+.hero_card > p {
+    margin: 0;
+    text-align: unset;
+}
