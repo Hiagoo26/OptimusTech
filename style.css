@@ -208,7 +208,7 @@ p {
 .Vagas-Items {
     display: flex;
     flex-flow: column nowrap;
-    border: 2px solid #6670855d;
+    border: 2px solid #EAECF0;
     border-radius: 10px;
     margin: 1em 0;
     padding: 1em;
